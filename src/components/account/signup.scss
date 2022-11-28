@@ -1,0 +1,97 @@
+.signup {
+  padding: 1rem 2rem;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h4 {
+    font-family: "SF UI Display";
+    font-style: normal;
+    font-weight: 600;
+    /* font-size: 20px; */
+    color: #000000;
+    margin-bottom: 0.5rem;
+  }
+
+  .input-wrapper {
+    h6 {
+      margin-top: 0.5rem;
+    }
+    input {
+      width: 95%;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+      margin-top: 0.5rem;
+      font-family: "SF UI Display";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 13px;
+      color: #6a6a6a;
+      border: 1px solid #cfcfcf;
+      border-radius: 6px;
+
+      &::placeholder {
+        font-family: "SF UI Display";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 13px;
+        color: #6a6a6a;
+      }
+    }
+  }
+
+  .signup-card {
+    width: 18rem;
+    border: 1px solid #d1cbcb;
+    box-shadow: 0px 0px 4px rgb(0 0 0 / 25%);
+    padding: 1rem;
+    border-radius: 6px;
+
+    .btn1 {
+      margin-top: 1rem;
+      padding: 0.3rem 0;
+      width: 100%;
+      font-family: "SF UI Display";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      color: #6a6a6a;
+      border: none;
+      border-radius: 6px;
+    }
+  }
+
+  .login {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0.5rem;
+    a {
+      font-family: "SF UI Display";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      color: #6a6a6a;
+      text-transform: capitalize !important;
+      text-decoration: underline;
+      transition: all 0.3s linear;
+
+      &:hover {
+        color: #000000;
+      }
+    }
+    p {
+      font-family: "SF UI Display";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 10px;
+      color: #6a6a6a;
+      /* text-transform: capitalize !important; */
+      display: flex;
+      align-items: flex-end;
+      margin-right: 0.5rem;
+      margin-bottom: 0.1rem;
+    }
+  }
+}

@@ -1,0 +1,126 @@
+.dashoard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    text-align: center;
+  }
+
+  .project-detail {
+    width: 90%;
+
+    .property-type {
+      margin-left: 2rem;
+      color: red;
+      margin-top: 10px;
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+
+    .p-img {
+      display: flex;
+      justify-content: space-between;
+      margin: 2rem;
+    }
+    img {
+      width: 30%;
+    }
+
+    .price {
+      margin-top: 2rem;
+    }
+  }
+}
+
+.dash {
+  h1 {
+    text-align: center;
+  }
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .propertyform {
+    width: 30rem;
+    border: 1px solid rgb(129, 124, 124);
+    padding: 1rem;
+    border-radius: 6px;
+  }
+  .input-wrapper {
+    h6 {
+      margin-top: 0.5rem;
+      font-size: 0.9rem;
+    }
+    input {
+      width: 95%;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+      margin-top: 0.5rem;
+      font-family: "SF UI Display";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 1rem;
+      color: #6a6a6a;
+      border: 1px solid #cfcfcf;
+      border-radius: 6px;
+
+      &::placeholder {
+        font-family: "SF UI Display";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 1rem;
+        color: #6a6a6a;
+      }
+    }
+
+    textarea {
+      width: 95%;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+      margin-top: 0.5rem;
+      font-family: "SF UI Display";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 1rem;
+      color: #6a6a6a;
+      border: 1px solid #cfcfcf;
+      border-radius: 6px;
+
+      &::placeholder {
+        font-family: "SF UI Display";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 1rem;
+        color: #6a6a6a;
+      }
+    }
+
+    select {
+      width: 95%;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+      margin-top: 0.5rem;
+      font-family: "SF UI Display";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 1rem;
+      color: #6a6a6a;
+      border: 1px solid #cfcfcf;
+      border-radius: 6px;
+
+      &::placeholder {
+        font-family: "SF UI Display";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 1rem;
+        color: #6a6a6a;
+      }
+    }
+  }
+}
